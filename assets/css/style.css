@@ -65,7 +65,7 @@ html, body {
 .products {
     display: flex;
     background-image: url(/assets/img/curve.png);
-    max-height: 50px;
+    max-height: 11px;
     background-size: cover;
     background-position: center top;
     padding: 15%;
@@ -119,6 +119,7 @@ html, body {
 
 /* categories */
 .categorias__titulo {
+    margin-top: 60px;
     font-size: 35px;
     text-align: center;
     color: var(--blue-color);
@@ -160,3 +161,42 @@ section {
 
 }
 .categories__item--images img {overflow:hidden;}
+
+ /* 5 COMENTARIOS  */
+
+
+ .menciones__titulo {
+     margin-top: 60px;
+    font-size: 35px;
+    text-align: center;
+    color: var(--blue-color);
+ }
+
+ .menciones__section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+ }
+    
+.menciones__item-images img {
+    /* border: 2px solid var(--blue-color); */
+    width: 350px;
+    height: 180px;
+    border-radius: 5px;
+}
+.menciones__item p {
+    background-color: #4169e1;
+    width: 330px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+/* 6 FOOTER */
+footer {
+    height: 100px;
+    background-color: #4169e1;
+}
