@@ -1,0 +1,104 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu de navegacion */
+.menu {
+    display: flex;
+    background-color: royalblue;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+}
+.logo_img img {
+    width: 100px;
+    height: 50px;
+}
+.nav__options ul {
+    
+    display: flex;
+    padding-left: 20px;
+    list-style: none;
+    
+}
+.nav_option--items a {
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav_option--items a:hover {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.main__section {
+    padding: 10%; 
+    text-align: center;
+    font-size: 2,7em;
+}
+.main__section h1 {
+    font-size: 3em;
+}
+
+.products {
+    display: flex;
+    background-image: url(/assets/img/curve.png);
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.product {
+    padding: 10px;
+    margin-top: -55px;
+    
+
+}
+.content {
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 6px groove #000000;
+    width: 180px;
+    margin-top: -112px;
+}
+.product .content {
+    background-color: white;
+    padding: 20px;
+
+    
+}
+.content__img {
+    text-align: center;
+
+}
+.content__img img{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.main__button {
+    background-color: #4169e1;
+    width: 100%;
+    padding: 8px;
+    color: white;
+    border: 0px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main__button:hover {
+    background-color: #154179;
+}
