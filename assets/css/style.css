@@ -19,7 +19,7 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Menu de navegacion */
+/* 1 MENU DE NAVEGACION  */
 .menu {
     display: flex;
     background-color: var(--blue-color);
@@ -166,6 +166,7 @@ section {
 
 
  .menciones__titulo {
+     margin-top: 5px solid gray;
      margin-top: 60px;
     font-size: 35px;
     text-align: center;
@@ -196,7 +197,19 @@ section {
 }
 
 /* 6 FOOTER */
-footer {
-    height: 100px;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
     background-color: #4169e1;
+    margin-top: 50px;
+
+
+
+}
+.footer p {
+    margin: 10px 30px 10px 30px;
+    color: var(--white-color);
+    font-size: var(--normal);
 }
