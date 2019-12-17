@@ -26,4 +26,8 @@ git
     .menciones__item {
         margin-top: 50px;
     }
+
+    .footer {
+        width: 100%;
+    }
 }
