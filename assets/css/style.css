@@ -65,7 +65,7 @@ html, body {
 .products {
     display: flex;
     background-image: url(/assets/img/curve.png);
-    max-height: 11px;
+    max-height: auto;
     background-size: cover;
     background-position: center top;
     padding: 15%;

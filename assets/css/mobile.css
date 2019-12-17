@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+
+    .content {
+        margin-top: 50px;
+    }
+
+    .main__section {
+        padding: 4%; 
+        padding-top: 12%;
+        font-size: 8px;
+    }
+    .products, .categories, .menciones__section  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-top: auto;
+    
+}
+    .categories__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menciones__item {
+        margin-top: 50px;
+    }
+}
