@@ -5,6 +5,7 @@ git
         padding: 4%; 
         padding-top: 12%;
         font-size: 8px;
+        padding-bottom: 0;
     }
     .products, .categories, .menciones__section, .content  {
         display: flex;
