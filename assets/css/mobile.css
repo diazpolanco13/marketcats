@@ -1,22 +1,19 @@
 @media (max-width: 600px) {
-
-    .content {
-        margin-top: 50px;
-    }
-
+git 
+ 
     .main__section {
         padding: 4%; 
         padding-top: 12%;
         font-size: 8px;
     }
-    .products, .categories, .menciones__section  {
+    .products, .categories, .menciones__section, .content  {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: auto;
         margin-top: auto;
-    
+        margin-top: 50px
 }
     .categories__item {
         display: flex;
