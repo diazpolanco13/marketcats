@@ -15,6 +15,9 @@ html, body {
   .row{
     display: flex;
   }
+  .row-center {
+    display: flex;
+}
   .container  H1 {
       font-size: 30px;
       margin-bottom: 50px;
@@ -106,6 +109,4 @@ html, body {
 
 
   }
-
-
-  /* container > row > column */
+  }
