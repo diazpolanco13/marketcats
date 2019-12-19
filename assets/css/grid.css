@@ -1,7 +1,13 @@
 :root {
     --width-col:8.3333333333%;
 }
-.container{
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
     max-width: 900px;
     margin:auto;
   }
@@ -9,7 +15,17 @@
   .row{
     display: flex;
   }
-  
+  .container  H1 {
+      font-size: 30px;
+      margin-bottom: 50px;
+      margin-left: 20px;
+  }
+
+  .container .descripcion_productos {
+      font-size: 20px;
+      text-align: left;
+      padding: 20px;
+  }
   .col-1{
     width: var(--width-col);
   }
@@ -49,14 +65,47 @@
   
   .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
     padding: 10px;
+    display: flex;
+    align-items: center;
+
   }
   
+  .col-3 img {
+    width: 180px;
+}
+    .col-12 {
+   height: 40px;
+
+}
+
   @media (max-width: 900px) {
+    html, body {
+        padding: 0px;
+        margin: 0px;
+        font-size: var(--normal);
+        font-family: Arial, Helvetica, sans-serif;
+    }
     .row{
       display: inherit;
+      flex-direction: column;
+        
     }
     .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
-      width: 100%
+      width: 100%;
+      justify-content: center;
+      margin-left: -10px;
+
     }
+    .row-center {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container .descripcion_productos {
+        margin: 2%;
+        text-align: center;
+
+
   }
+
+
   /* container > row > column */
