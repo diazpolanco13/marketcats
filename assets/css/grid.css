@@ -1,76 +1,62 @@
 :root {
-    --col-width:8.333333333333333%‬;
-    --color-red: red;
-
+    --width-col:8.3333333333%;
 }
-.container {
+.container{
     max-width: 900px;
-    margin: auto;
-    background-color: antiquewhite;
-}
-.row {
+    margin:auto;
+  }
+  
+  .row{
     display: flex;
-}
-
-.col-1 {
-    width: 8,333333333333333%;
-    height: 30px;
-    border: 1px solid var(--color-red);    
-}
-
-.col-2 {
-    width: 16.66666666666667%;
-    height: 30px;
-    border: 1px solid var(--color-red);    
-}
-.col-3 {
-    width: 25.5em;
-    height: 30px;
-    border: 1px solid black;   
-}
-
-.col-4 {
-    width: 33.33333333333333%;
-    height: 30px;
-    border: 1px solid black;   
-}
-.col-5 {
-    width: calc(8.333333333333333% * 5);
-    height: 30px;
-    border: 1px solid black;     
-}
-.col-6 {
-    width: calc(8.333333333333333% * 6);
-    height: 30px;
-    border: 1px solid black;   
-}
-.col-7 {
-    width: calc(8.333333333333333%*7);
-    height: 30px;
-    border: 1px solid black;   
-}
-.col-8 {
-    width: calc(8.333333333333333%*8);
-    height: 30px;
-    border: 1px solid black;   
-}
-.col-9 {
-    width: calc(8.333333333333333%*9);
-    height: 30px;
-    border: 1px solid black;  
-}
-.col-10 {
-    width: calc(8.333333333333333%*10);
-    height: 30px;
-    border: 1px solid black;    
-}
-.col-11 {
-    width: calc(8.333333333333333%*11);
-    height: 30px;
-    border: 1px solid black;  
-}
-.col-12 {
-    width: calc(8.333333333333333% * 12);
-    height: 30px;
-    border: 1px solid black;   
-} 
+  }
+  
+  .col-1{
+    width: var(--width-col);
+  }
+  .col-2{
+    width: calc(var(--width-col)*2);
+  }
+  .col-3{
+    width: calc(var(--width-col)*3);
+  }
+  .col-4{
+    width: calc(var(--width-col)*4);
+  }
+  .col-5{
+    width: calc(var(--width-col)*5);
+  }
+  .col-6{
+    width: calc(var(--width-col)*6);
+  }
+  .col-7{
+    width: calc(var(--width-col)*7);
+  }
+  .col-8{
+    width: calc(var(--width-col)*8);
+  }
+  .col-9{
+    width: calc(var(--width-col)*9);
+  }
+  .col-10{
+    width: calc(var(--width-col)*10);
+  }
+  .col-11{
+    width: calc(var(--width-col)*11);
+  }
+  .col-12{
+    width: calc(var(--width-col)*12);
+  }
+  
+  .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 10px;
+  }
+  
+  @media (max-width: 900px) {
+    .row{
+      display: inherit;
+    }
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+      width: 100%
+    }
+  }
+  /* container > row > column */
