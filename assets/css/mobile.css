@@ -1,6 +1,12 @@
 @media (max-width: 600px) {
-git 
- 
+
+    html, body {
+        padding: 0px;
+        margin: 0px;
+        font-size: var(--normal);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
     .main__section {
         padding: 4%; 
         padding-top: 12%;
