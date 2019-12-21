@@ -1,0 +1,33 @@
+
+:root {
+    --blue-color:#4169e1;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    /* Tipografia */
+    --normal:14px;
+
+    /* border de tarjetas */
+    --border:6px groove #000000;
+}
+html {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(-);
+    /* background-color: black; */
+}
+
+.contenedor_paypal {
+    text-align: center;
+}
+
+.contenedor_paypal img {
+    width: 250px;
+}
+.contenedor_paypal a {
+    color: var(--blue-color);
+
+}
+

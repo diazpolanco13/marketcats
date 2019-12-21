@@ -107,7 +107,9 @@ html, body {
     .container .descripcion_productos {
         margin: 2%;
         text-align: center;
-
-
   }
+  .modulo_pago  {
+    margin: 5px 20px 10px 20px;
+  }
+
   }
