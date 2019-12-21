@@ -34,6 +34,12 @@ html, body {
     width: 100px;
     height: 50px;
 }
+
+label {
+    font-size: var(--normal);
+
+}
+
 .nav__options ul {
     
     display: flex;
@@ -213,10 +219,20 @@ section {
 /* modulo de pago  */
 
 .modulo_pago {
-    box-shadow: 0px 0px 10px 2px grey;
-    padding: 10px;
-    /* margin: 100px 0px 100px 0px; */
+    box-shadow: 0px 0px 6px 2px grey;
+    padding: 20px;
+    width: 100%;
+    margin: 100px 0px 100px 0px;
 }
+
+.modulo_pago input {
+    height: 25px;
+    width: 100%;
+    margin: 5px 0px 15px 0px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 3px 6px 3px 6px;
+} 
 .modulo_pago_img {
 
 }
